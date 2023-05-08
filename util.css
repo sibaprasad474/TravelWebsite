@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+.min-h-screen {
+  min-height: 100vh;
+}
+.nav-font {
+  font-family: "Ubuntu", sans-serif;
+}
+.bg-red {
+  background-color: red;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex {
+  display: flex;
+}
+.items-centre {
+  align-items: center;
+}
+.justify-centre {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap {
+  display: flex;
+  gap: 1rem;
+}
+.font-bold {
+  font-weight: bold;
+}
+.flex-col {
+  flex-direction: column;
+}
+.my-1 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.px-2 {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.text-blue {
+  color: rgb(67, 67, 224);
+}
+.text-white {
+  color: #eee;
+}
+.btn {
+  color: #eee;
+  background-color:transparent;
+  cursor: pointer;
+  height: 100%;
+  font-size: 15px;
+  width: 100%;
+  padding: 3px;
+  outline: none;
+}
+.nav-height {
+  height: 15vh;
+}
+.box-prop {
+    box-shadow: 10px 15px 20px 0px rgba(0, 0, 0, 0.5);
+    transition: transform ease 0.5s, box-shadow ease 0.5s;
+}
+.box-shape{
+    height: 15rem;
+    width: 20rem;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #eee;
+}
+.gap{
+    gap: 1rem;
+}
+.box:hover{
+  cursor: pointer;
+}
+.footer-p-img{
+  margin: auto;
+  font-size: 1.2rem;
+  color: #f0eaeb;
+}
+
+.text-dec-none{
+  text-decoration: none;
+}

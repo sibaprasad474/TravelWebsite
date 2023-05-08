@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(135deg, #c695ca, #fd3cad);
+}
+/* body{
+    background-image: url(https://media.istockphoto.com/id/1049254702/photo/sunrise-on-the-pragser-wildsee.jpg?b=1&s=170667a&w=0&k=20&c=xwSSA6bcqL2_3xfkqH7gvbTbFnIEVYWx9cqs9KONVDs=);
+    background-position:cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+} */
+.container {
+  max-width: 80vw;
+}
+nav {
+  height: 60px;
+}
+.navbar li {
+  list-style: none;
+  cursor: pointer;
+}
+/* ---------main section--------- */
+.top-left {
+  width: 50%;
+  height: 65vh;
+}
+.top-right {
+  width: 50%;
+  height: 50vh;
+  overflow: hidden;
+  align-items: center;
+}
+.top-right img {
+  height: 80%;
+  width: 70%;
+  border-radius: 1rem;
+}
+.p-wid{
+    width: 40%;
+
+}
+.font-1{
+    font-family: 'Rubik Moonrocks', cursive;
+
+}
+.box img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+}
